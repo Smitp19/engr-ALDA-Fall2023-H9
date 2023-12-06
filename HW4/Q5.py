@@ -211,9 +211,3 @@ print("Accuracy: ", accuracy, "Precision: ", precision, "Recall: ",recall, "F1 s
 output["linear"]=[accuracy, precision, recall,f1score]
 
 
-# In[26]:
-
-
-best_kernel = max(output, key=lambda k: output[k]['F1 score'])
-print(f"\nBest Kernel: {output}")
-
